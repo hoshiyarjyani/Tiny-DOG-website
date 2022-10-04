@@ -15,16 +15,20 @@ body{
 }
 
 #containerfluidid {
-    padding: 3% ;
+    padding: 3% 15%;
 }
+ 
+ 
+     
 /*  Navbar custm */
 
-#navbarbrandid {
+#navbarbrandid{
     font-family: "Ubuntu";
      font-size: 2.5rem;
      font-weight:bold ;
      padding-left: 1rem;
 }
+ 
 
 #navid{
     padding-bottom: 3rem;
@@ -39,11 +43,88 @@ body{
     font-family:"Ubuntu" ;
 }
 
+
+/* button  */
+
 .downloadbtn{
-    margin: 5% 3% 10% 0;
+    margin: 5% 3% 15% 0;
 }
+.btn{
+    margin-right: 0.2rem;
+}
+
+/* iphone image */
 
 .titleimg{
     width: 60%;
     transform: rotate(25deg);
+    margin-left: 53px;
 }
+
+/* features section */
+
+  #features{
+    padding: 7% 15%;
+  }
+
+  .feature-box{
+    text-align: center;
+    padding: 5%;
+  }
+  .h3c{
+    font-family:'Montserrat';
+    font-size: medium;
+
+    
+  }
+  p{
+    color: #8f8f8f;
+  }
+
+  .icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+
+  .icon:hover{
+    color: #ff4c68;
+  }
+
+ /* Testimonial section  */
+
+ #testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff ;
+
+ }
+
+ h2{
+    font-family:'Montserrat';
+    font-size: 3.5rem;
+   
+    
+ }
+ #h2id{
+    line-height: 1.5;
+    
+ }
+
+ .testimonialimg{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+ }
+ 
+ /* press */
+
+ #press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+ }
+ .presslogo{
+    width: 15%;
+    margin: 20px 20px 50px;
+ }
